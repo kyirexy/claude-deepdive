@@ -4,6 +4,22 @@
 
 [English](README.md) | [中文](README_zh.md)
 
+## 一键启动
+
+复制以下内容，发给任何 AI 助手（Trae / Cursor / Claude Code / Coze 等），它会自动帮你克隆并运行：
+
+```
+帮我克隆并运行这个项目：
+https://github.com/kyirexy/claude-deepdive
+
+步骤：
+1. git clone https://github.com/kyirexy/claude-deepdive
+2. cd claude-deepdive/web
+3. npm install
+4. npm run dev
+5. 打开 http://localhost:3000
+```
+
 ## 特性
 
 - **11 个章节** - 涵盖架构总览、核心引擎、多Agent、安全、上下文管理、设计原则、生态扩展、终端架构、基础设施

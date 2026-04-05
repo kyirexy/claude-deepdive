@@ -4,6 +4,22 @@ An interactive visual tutorial exploring the internal architecture and design pr
 
 [English](README.md) | [中文](README_zh.md)
 
+## One-Click Start
+
+Copy the following and send to any AI assistant (Trae / Cursor / Claude Code / Coze etc.), it will clone and run for you automatically:
+
+```
+Help me clone and run this project:
+https://github.com/kyirexy/claude-deepdive
+
+Steps:
+1. git clone https://github.com/kyirexy/claude-deepdive
+2. cd claude-deepdive/web
+3. npm install
+4. npm run dev
+5. Open http://localhost:3000
+```
+
 ## Features
 
 - **11 Chapters** covering Architecture, Core Engine, Multi-Agent, Security, Context Management, Design Principles, Ecosystem, Terminal Architecture, and Infrastructure
