@@ -1,8 +1,8 @@
 # Claude Code Deep Dive
 
-An interactive visual tutorial exploring the internal architecture and design principles of Claude Code, powered by source code analysis.
-
 [English](README.md) | [中文](README_zh.md)
+
+An in-depth exploration of Claude Code's internal architecture and core design principles through source code analysis. This tutorial is designed for intermediate to advanced developers who want to understand how Claude Code implements Agent loops, tool calling, multi-agent collaboration, security, context management, and other core features.
 
 ## One-Click Start
 
@@ -69,7 +69,7 @@ claude-deepdive/
 
 ## Contact
 
-- **Bilibili**: [1679132605](https://space.bilibili.com/1679132605)
+- **Bilibili**: [车看风景](https://space.bilibili.com/1679132605)
 - **WeChat**: lxy11300725
 - **QQ**: 1592880030
 
