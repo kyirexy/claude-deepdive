@@ -2,7 +2,7 @@
 
 [English](README_en.md) | [中文](README_zh.md)
 
-An in-depth exploration of Claude Code's internal architecture and core design principles through source code analysis. This tutorial is designed for intermediate to advanced developers who want to understand how Claude Code implements Agent loops, tool calling, multi-agent collaboration, security, context management, and other core features.
+An in-depth exploration of Claude Code's internal architecture and core design principles through source code analysis. This tutorial is designed for intermediate to advanced developers who want to understand how top-tier Code Agents are architected and implemented in the AI era, covering Agent loops, tool calling, multi-agent collaboration, security, context management, and more.
 
 ## One-Click Start
 
@@ -69,7 +69,7 @@ claude-deepdive/
 
 ## Contact
 
-- **Bilibili**: [车看风景](https://space.bilibili.com/1679132605)
+- **Bilibili**: [车看风景的三个](https://space.bilibili.com/1679132605)
 - **WeChat**: lxy11300725
 - **QQ**: 1592880030
 

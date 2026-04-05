@@ -2,7 +2,7 @@
 
 [English](README_en.md) | [中文](README_zh.md)
 
-通过源码分析，深入探索 Claude Code 的内部架构与核心设计原理。这是一个面向中高级开发者的技术教程，帮助你理解 Claude Code 如何实现 Agent 循环、工具调用、多Agent协作、安全防护、上下文管理等核心功能。
+通过源码分析，深入探索 Claude Code 的内部架构与核心设计原理。这是一个面向中高级开发者的技术教程，帮助你理解 AI 时代顶级 Code Agent 的架构与实现方式，掌握 Agent 循环、工具调用、多Agent协作、安全防护、上下文管理等核心功能。
 
 ## 一键启动
 
@@ -69,7 +69,7 @@ claude-deepdive/
 
 ## 联系方式
 
-- **B站**: [车看风景](https://space.bilibili.com/1679132605)
+- **B站**: [车看风景的三个](https://space.bilibili.com/1679132605)
 - **微信**: lxy11300725
 - **QQ**: 1592880030
 
