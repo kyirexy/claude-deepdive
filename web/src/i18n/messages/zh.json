@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "timeline": "时间线",
+    "layers": "层级"
+  },
+  "home": {
+    "hero_title": "Claude DeepDive",
+    "hero_subtitle": "通过交互式可视化，深入理解 Agent 系统工程",
+    "start": "开始学习",
+    "core_pattern": "核心模式",
+    "core_pattern_desc": "每个 agent 都是 while 循环 + 工具执行",
+    "message_flow": "消息流",
+    "message_flow_desc": "messages[] 在循环中如何累积",
+    "learning_path": "学习路径",
+    "learning_path_desc": "11个章节带你深入理解 Claude Code 架构",
+    "layers_title": "架构分层",
+    "layers_desc": "从不同维度理解 Agent 系统",
+    "loc": "行代码",
+    "versions_in_layer": "个章节"
+  },
+  "sessions": {
+    "s01": "全局视角：CLI vs Agent OS",
+    "s02": "引擎：主循环与 Prompt",
+    "s03": "工具系统：42个工具",
+    "s04": "多 Agent 体系",
+    "s05": "安全层：三层防护网",
+    "s06": "生态：Skill/Plugin/MCP",
+    "s07": "上下文经济学",
+    "s08": "设计原则",
+    "s09": "扩展生态",
+    "s10": "终端架构",
+    "s11": "基础设施"
+  },
+  "keyInsights": {
+    "s01": "Claude Code 不只是一个 CLI，而是一个 Agent Operating System",
+    "s02": "用 while(true) + state 取代递归，避免爆栈",
+    "s03": "工具调用要有治理，不能模型说调就调",
+    "s04": "把角色拆开：做事者与验收者分离",
+    "s05": "安全层要互不绕过",
+    "s06": "生态的关键是让模型感知到自己的能力",
+    "s07": "每个 Token 都有成本，能缓存的缓存，能压缩的压缩",
+    "s08": "产品化在于处理第二天的问题",
+    "s09": "核心保持简洁，扩展形成生态",
+    "s10": "状态驱动渲染，数据与显示分离",
+    "s11": "支撑模块决定系统健壮性"
+  },
+  "layer_labels": {
+    "architecture": "架构总览",
+    "core": "核心引擎",
+    "multi-agent": "多Agent",
+    "security": "安全与生态",
+    "context": "上下文管理",
+    "principles": "设计原则",
+    "ecosystem": "扩展生态",
+    "infrastructure": "终端架构",
+    "foundation": "基础设施"
+  },
+  "chapter_nav": {
+    "previous": "上一章",
+    "next": "下一章",
+    "chapter_not_found": "章节不存在"
+  }
+}

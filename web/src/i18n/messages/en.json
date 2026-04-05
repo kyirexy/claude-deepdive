@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "timeline": "Timeline",
+    "layers": "Layers"
+  },
+  "home": {
+    "hero_title": "Claude DeepDive",
+    "hero_subtitle": "Through interactive visualization, deeply understand Agent system engineering",
+    "start": "Start Learning",
+    "core_pattern": "The Core Pattern",
+    "core_pattern_desc": "Every agent is a while loop + tool execution",
+    "message_flow": "Message Flow",
+    "message_flow_desc": "How messages[] accumulates through the loop",
+    "learning_path": "Learning Path",
+    "learning_path_desc": "11 chapters to deeply understand Claude Code architecture",
+    "layers_title": "Architecture Layers",
+    "layers_desc": "Understand the Agent system from different dimensions",
+    "loc": "LOC",
+    "versions_in_layer": "chapters in layer"
+  },
+  "sessions": {
+    "s01": "Global View: CLI vs Agent OS",
+    "s02": "Engine: Main Loop & Prompt",
+    "s03": "Tool System: 42 Tools",
+    "s04": "Multi-Agent System",
+    "s05": "Security: Three-Layer Defense",
+    "s06": "Ecosystem: Skill/Plugin/MCP",
+    "s07": "Context Economics",
+    "s08": "Design Principles",
+    "s09": "Extended Ecosystem",
+    "s10": "Terminal Architecture",
+    "s11": "Infrastructure"
+  },
+  "keyInsights": {
+    "s01": "Claude Code is not just a CLI, but an Agent Operating System",
+    "s02": "Using while(true) + state instead of recursion to avoid stack overflow",
+    "s03": "Tool calls need governance, model can't just call whatever it wants",
+    "s04": "Separate the doer from the verifier",
+    "s05": "Security layers should not bypass each other",
+    "s06": "The key to ecosystem is making the model aware of its own capabilities",
+    "s07": "Every Token has a cost, cache what can be cached, compress what can be compressed",
+    "s08": "Productization is about handling day-two problems",
+    "s09": "Keep the core simple, let extensions form an ecosystem",
+    "s10": "State-driven rendering, separation of data and display",
+    "s11": "Supporting modules determine system robustness"
+  },
+  "layer_labels": {
+    "architecture": "Architecture Overview",
+    "core": "Core Engine",
+    "multi-agent": "Multi-Agent",
+    "security": "Security & Ecosystem",
+    "context": "Context Management",
+    "principles": "Design Principles",
+    "ecosystem": "Extended Ecosystem",
+    "infrastructure": "Terminal Architecture",
+    "foundation": "Infrastructure"
+  },
+  "chapter_nav": {
+    "previous": "Previous",
+    "next": "Next",
+    "chapter_not_found": "Chapter not found"
+  }
+}
