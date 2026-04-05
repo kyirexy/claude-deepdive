@@ -6,18 +6,10 @@
 
 ## 一键启动
 
-复制以下内容，发给任何 AI 助手（Trae / Cursor / Claude Code / Coze 等），它会自动帮你克隆并运行：
+复制并发送给任何 AI 助手，它会自动帮你克隆并运行：
 
 ```
-帮我克隆并运行这个项目：
-https://github.com/kyirexy/claude-deepdive
-
-步骤：
-1. git clone https://github.com/kyirexy/claude-deepdive
-2. cd claude-deepdive/web
-3. npm install
-4. npm run dev
-5. 打开 http://localhost:3000
+帮我克隆并运行这个项目：https://github.com/kyirexy/claude-deepdive
 ```
 
 ## 特性
@@ -77,7 +69,6 @@ claude-deepdive/
 
 ## 联系方式
 
-- **GitHub**: [kyirexy/claude-deepdive](https://github.com/kyirexy/claude-deepdive)
 - **B站**: [1679132605](https://space.bilibili.com/1679132605)
 - **微信**: lxy11300725
 - **QQ**: 1592880030

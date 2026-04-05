@@ -6,18 +6,10 @@ An interactive visual tutorial exploring the internal architecture and design pr
 
 ## One-Click Start
 
-Copy the following and send to any AI assistant (Trae / Cursor / Claude Code / Coze etc.), it will clone and run for you automatically:
+Copy and send to any AI assistant — it will clone and run the project for you:
 
 ```
-Help me clone and run this project:
-https://github.com/kyirexy/claude-deepdive
-
-Steps:
-1. git clone https://github.com/kyirexy/claude-deepdive
-2. cd claude-deepdive/web
-3. npm install
-4. npm run dev
-5. Open http://localhost:3000
+帮我克隆并运行这个项目：https://github.com/kyirexy/claude-deepdive
 ```
 
 ## Features
@@ -77,7 +69,6 @@ claude-deepdive/
 
 ## Contact
 
-- **GitHub**: [kyirexy/claude-deepdive](https://github.com/kyirexy/claude-deepdive)
 - **Bilibili**: [1679132605](https://space.bilibili.com/1679132605)
 - **WeChat**: lxy11300725
 - **QQ**: 1592880030
