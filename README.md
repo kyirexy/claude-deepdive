@@ -1,25 +1,25 @@
-# Claude Code Deep Dive
+# Claude Code 深度解析
 
-[English](README.md) | [中文](README_zh.md)
+[English](README_en.md) | [中文](README_zh.md)
 
-An in-depth exploration of Claude Code's internal architecture and core design principles through source code analysis. This tutorial is designed for intermediate to advanced developers who want to understand how Claude Code implements Agent loops, tool calling, multi-agent collaboration, security, context management, and other core features.
+通过源码分析，深入探索 Claude Code 的内部架构与核心设计原理。这是一个面向中高级开发者的技术教程，帮助你理解 Claude Code 如何实现 Agent 循环、工具调用、多Agent协作、安全防护、上下文管理等核心功能。
 
-## One-Click Start
+## 一键启动
 
-Copy and send to any AI assistant — it will clone and run the project for you:
+复制并发送给任何 AI 助手，它会自动帮你克隆并运行：
 
 ```
 帮我克隆并运行这个项目：https://github.com/kyirexy/claude-deepdive
 ```
 
-## Features
+## 特性
 
-- **11 Chapters** covering Architecture, Core Engine, Multi-Agent, Security, Context Management, Design Principles, Ecosystem, Terminal Architecture, and Infrastructure
-- **Interactive Visualizations** - Step-by-step animated diagrams for each core concept
-- **Bilingual Support** - Full content in both English and Chinese
-- **Source Code Grounded** - All explanations referenced from actual Claude Code source files
+- **11 个章节** - 涵盖架构总览、核心引擎、多Agent、安全、上下文管理、设计原则、生态扩展、终端架构、基础设施
+- **交互式可视化** - 逐步动画图解每个核心概念，直观理解复杂架构
+- **双语支持** - 完整的中英文内容，方便对比学习
+- **源码为基** - 所有讲解均基于 Claude Code 实际源码文件，而非猜测或文档
 
-## Quick Start
+## 快速开始
 
 ```bash
 cd web
@@ -27,52 +27,52 @@ npm install
 npm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000)
+访问 [http://localhost:3000](http://localhost:3000)
 
-## Project Structure
+## 项目结构
 
 ```
 claude-deepdive/
-├── web/                    # Next.js application
+├── web/                    # Next.js 应用
 │   ├── src/
-│   │   ├── app/          # Pages (locale/[version], timeline, layers)
-│   │   ├── components/   # UI components and visualizations
-│   │   ├── hooks/        # Custom React hooks
-│   │   └── lib/          # Constants, i18n, chapter content
-│   └── public/           # Static assets
-└── docs/                  # Additional documentation
+│   │   ├── app/          # 页面 (locale/[version], timeline, layers)
+│   │   ├── components/   # UI 组件和可视化
+│   │   ├── hooks/        # 自定义 React hooks
+│   │   └── lib/          # 常量、i18n、章节内容
+│   └── public/           # 静态资源
+└── docs/                  # 额外文档
 ```
 
-## Chapters
+## 章节一览
 
-| Chapter | Topic | Visualization |
-|---------|-------|---------------|
-| s01 | Agent Loop | While-loop flowchart |
-| s02 | Prompt Engine | 4-tier compression pipeline |
-| s03 | Tool System | 14-step execution pipeline |
-| s04 | Multi-Agent | Main + Explore + Verify architecture |
-| s05 | Security Layer | 3-layer protection flow |
-| s06 | Ecosystem | Skill / Plugin / MCP architecture |
-| s07 | Context Economics | Token budget management |
-| s08 | Design Principles | 7 principles from source code |
-| s09 | Extension Ecosystem | Session / MCP / Plugin / Skill |
-| s10 | Terminal Architecture | CLI / main.tsx / TUI flow |
-| s11 | Infrastructure | Log, Network, Config (text only) |
+| 章节 | 主题 | 可视化内容 |
+|------|------|-----------|
+| s01 | Agent 循环 | While-loop 流程图 |
+| s02 | 提示词引擎 | 4层压缩流水线 |
+| s03 | 工具系统 | 14步执行管道 |
+| s04 | 多Agent系统 | Main + Explore + Verify 架构 |
+| s05 | 安全层 | 3层防护流程 |
+| s06 | 生态系统 | Skill / Plugin / MCP 架构 |
+| s07 | 上下文经济学 | Token 预算管理 |
+| s08 | 设计原则 | 7条源码提炼原则 |
+| s09 | 扩展生态 | Session / MCP / Plugin / Skill |
+| s10 | 终端架构 | CLI / main.tsx / TUI 启动流程 |
+| s11 | 基础设施 | 日志、网络、配置（纯文字） |
 
-## Tech Stack
+## 技术栈
 
-- **Framework**: Next.js 15
+- **框架**: Next.js 15
 - **UI**: React 19, Tailwind CSS 4
-- **Animations**: Framer Motion 12
-- **Icons**: Lucide React
+- **动画**: Framer Motion 12
+- **图标**: Lucide React
 - **Markdown**: react-markdown with remark-gfm
 
-## Contact
+## 联系方式
 
-- **Bilibili**: [车看风景](https://space.bilibili.com/1679132605)
-- **WeChat**: lxy11300725
+- **B站**: [车看风景](https://space.bilibili.com/1679132605)
+- **微信**: lxy11300725
 - **QQ**: 1592880030
 
-## License
+## 开源协议
 
 MIT

@@ -1,6 +1,6 @@
 # Claude Code 深度解析
 
-[English](README.md) | [中文](README_zh.md)
+[English](README_en.md) | [中文](README_zh.md)
 
 通过源码分析，深入探索 Claude Code 的内部架构与核心设计原理。这是一个面向中高级开发者的技术教程，帮助你理解 Claude Code 如何实现 Agent 循环、工具调用、多Agent协作、安全防护、上下文管理等核心功能。
 
